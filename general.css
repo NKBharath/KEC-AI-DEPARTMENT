@@ -1,0 +1,18 @@
+html,
+body {
+    margin: 0px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: ubuntu, sans-serif, Arial;
+}
+
+.overall {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.body-content {
+    flex-grow: 1;
+}
