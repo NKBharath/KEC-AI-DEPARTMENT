@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    z-index: 100;
+    flex-shrink: 0;
+    width: 790px;
+
+}
+
+.left-section-logo {
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(22, 51, 109);
+    height: 90%;
+    color: white;
+}
+
+.middle-section {
+    font-family: rokkitt, sans-serif, arial;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgb(22, 51, 109);
+    color: white;
+    height: 90%;
+    padding-top: 15px;
+    padding-right: 7px;
+    padding-bottom: 5px;
+}
+
+.right-section {
+    font-family: teko, sans-serif, arial;
+    background-color: rgb(22, 51, 109);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 90%;
+    padding-right: 25px;
+    padding-top: 17px;
+    padding-bottom: 3px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.since {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.year {
+    font-size: 20px;
+    margin-top: -12px;
+}
+
+.header-right {
+    margin-right: 0px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-placement-coordinator,
+.header-faculty-profile,
+.header-kongu-ac-in,
+.header-kongu-edu,
+.header-insta-img {
+    background-color: white;
+    border: none;
+    color: rgb(0, 123, 255);
+    transition: smooth;
+    font-size: 18px;
+}
+
+.header-placement-coordinator:hover,
+.header-faculty-profile:hover,
+.header-kongu-ac-in:hover,
+.header-kongu-edu:hover {
+    cursor: pointer;
+    color: rgb(13, 90, 173);
+}
+
+.insta-img {
+    height: 30px;
+    margin-right: 10px;
+}

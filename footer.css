@@ -1,0 +1,58 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.dept-info {
+    background-color: rgba(11, 11, 11, 0.888);
+    color: white;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dept-name {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.college-address {
+    padding-top: 10px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.dept-contact {
+    background-color: gray;
+    height: 200px;
+    width: 50%;
+}
+
+.dept-info-right-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.about-link {
+    color: antiquewhite;
+    padding-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.top-link {
+    margin: 0;
+}
